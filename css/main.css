@@ -50,7 +50,7 @@ body {
 a,
 a:visited {
 	outline: none;
-	color: #fbca08;
+	color: #000FFF;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -1065,7 +1065,7 @@ main .site-header .logo a {
 
 .modal-toggle a:hover::before,
 .modal-toggle a:hover::after {
-	background-color: #fbca08;
+	background-color: #00FFFF;
 }
 
 @media only screen and (max-width:600px) {
@@ -1117,7 +1117,7 @@ main .site-header .logo a {
 
 .about-header h1 {
 	font: 38px/1.2em "montserrat-bold", sans-serif;
-	color: #fbca08;
+	color: #0000FF;
 }
 
 .about-header .icon-wrap {
@@ -1212,7 +1212,7 @@ main .site-header .logo a {
 	font: 14px/1em "montserrat-bold", sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	color: #fbca08;
+	color: #0000FF;
 }
 
 .contact p {
@@ -1426,7 +1426,7 @@ main .site-header .logo a {
 
 #mod-map #map-zoom-in:hover::before,
 #mod-map #map-zoom-out:hover::before {
-	color: #fbca08;
+	color: #0000FF;
 }
 
 /* 
@@ -1497,7 +1497,7 @@ footer a:focus {
 }
 
 .footer-social li a {
-	color: #fbca08;
+	color: #0000FF;
 }
 
 .footer-social li a:hover {
