@@ -962,8 +962,25 @@ main .site-header .logo a {
 /* 06. =modals
 /* =================================================================== */
 #mod-about,
-#mod-news,
 #mod-map {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	min-height: 100%;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	filter: alpha(opacity=0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	opacity: 0;
+	zoom: 1;
+}
+
+#mod-news {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -999,8 +1016,19 @@ main .site-header .logo a {
 }
 
 #mod-map.is-visible,
-#mod-news.is-visible,
 #mod-about.is-visible {
+	-moz-transform: translateX(0);
+	-o-transform: translateX(0);
+	-webkit-transform: translateX(0);
+	-ms-transform: translateX(0);
+	transform: translateX(0);
+	filter: alpha(opacity=100);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	opacity: 1;
+	zoom: 1;
+}
+
+#mod-news.is-visible {
 	-moz-transform: translateX(0);
 	-o-transform: translateX(0);
 	-webkit-transform: translateX(0);
