@@ -899,6 +899,14 @@ main .site-header .logo a {
 	background-size: contain;
 }
 
+.modal-toggles .link a::before {
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	left: 24px;
+	background-size: contain;
+}
+
 .modal-toggles .location a::before {
 	width: 26px;
 	height: 26px;
