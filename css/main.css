@@ -1117,16 +1117,19 @@ main .site-header .logo a {
 }
 
 /* about header */
+.news-header,
 .about-header {
 	text-align: center;
 	margin-top: 5%;
 }
 
+.news-header,
 .about-header h1 {
 	font: 38px/1.2em "montserrat-bold", sans-serif;
 	color: #0000FF;
 }
 
+.news-header,
 .about-header .icon-wrap {
 	display: inline-block;
 	vertical-align: middle;
@@ -1134,6 +1137,7 @@ main .site-header .logo a {
 	padding: 0;
 }
 
+.news-header,
 .about-header .icon-wrap i {
 	display: block;
 	margin: 0;
@@ -1150,15 +1154,18 @@ main .site-header .logo a {
 }
 
 @media only screen and (max-width:900px) {
-	.about-header {
+	.news-header,
+    .about-header {
 		margin-top: 7%;
 	}
 
-	.about-header h1 {
+	.news-header,
+    .about-header h1 {
 		font: 35px/1.2em "montserrat-bold", sans-serif;
 	}
 
-	.about-header .icon-wrap i {
+	.news-header,
+    .about-header .icon-wrap i {
 		width: 61px;
 		height: 50px;
 	}
@@ -1166,44 +1173,52 @@ main .site-header .logo a {
 }
 
 @media only screen and (max-width:768px) {
-	.about-header {
+	.news-header,
+    .about-header {
 		margin-top: 10%;
 	}
 
-	.about-header h1 {
+	.news-header,
+    .about-header h1 {
 		font: 32px/1.2em "montserrat-bold", sans-serif;
 	}
 
-	.about-header .icon-wrap {
+	.news-header,
+    .about-header .icon-wrap {
 		margin: 0 0 24px 0;
 	}
 
 }
 
 @media only screen and (max-width:600px) {
-	.about-header {
+	.news-header,
+    .about-header {
 		margin-top: 60px;
 	}
 
 }
 
 @media only screen and (max-width:500px) {
-	.about-header {
+	.news-header,
+    .about-header {
 		margin-top: 54px;
 	}
 
-	.about-header h1 {
+	.news-header,
+    .about-header h1 {
 		font: 30px/1.2em "montserrat-bold", sans-serif;
 	}
 
 }
 
 @media only screen and (max-width:400px) {
-	.about-header h1 {
+	.news-header,
+    .about-header h1 {
 		font: 28px/1.2em "montserrat-bold", sans-serif;
 	}
 
-	.about-header .icon-wrap i {
+	.news-header,
+    .about-header .icon-wrap i {
 		width: 56px;
 		height: 46px;
 	}
@@ -1211,10 +1226,12 @@ main .site-header .logo a {
 }
 
 /* about content */
+.about-news,
 .about-content {
 	color: white;
 }
 
+.about-news,
 .about-content h3 {
 	font: 14px/1em "montserrat-bold", sans-serif;
 	text-transform: uppercase;
