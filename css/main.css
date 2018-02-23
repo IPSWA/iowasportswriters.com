@@ -954,6 +954,7 @@ main .site-header .logo a {
 /* 06. =modals
 /* =================================================================== */
 #mod-about,
+#mod-news,
 #mod-map {
 	position: fixed;
 	top: 0;
@@ -972,6 +973,7 @@ main .site-header .logo a {
 	zoom: 1;
 }
 
+#mod-news,
 #mod-about {
 	-moz-transform: translateX(-100%);
 	-o-transform: translateX(-100%);
@@ -989,6 +991,7 @@ main .site-header .logo a {
 }
 
 #mod-map.is-visible,
+#mod-news.is-visible,
 #mod-about.is-visible {
 	-moz-transform: translateX(0);
 	-o-transform: translateX(0);
@@ -1001,6 +1004,7 @@ main .site-header .logo a {
 	zoom: 1;
 }
 
+#mod-news.is-visible,
 #mod-about.is-visible {
 	position: absolute;
 	min-height: none;
@@ -1095,16 +1099,19 @@ main .site-header .logo a {
 
 /* modal about
 ------------------------------------------ */
+#mod-news,
 #mod-about {
 	z-index: 999991;
 }
 
+#mod-news,
 #mod-about::after {
 	content: "";
 	display: block;
 	height: 120px;
 }
 
+#mod-news,
 #mod-about .row {
 	max-width: 750px;
 }
